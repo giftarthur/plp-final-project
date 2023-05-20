@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SEFAR.ORG</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="sefar logo.png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclicks="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclicks="showMenu()"></i>
+            </nav>
+            
+            <div class="text-box">
+                <h1>Students Education Funds Africa</h1>
+                <p>SEFAR is aiming at seeing every child make it to school by accepting to
+                    easen parent's fee payment through use of both commodities and of cash.
+                    This is an assurance method such that the parent will be able to pay,manage and
+                    make a follow up on the child's fee payment.</p>
+
+                    <a href="" class="hi-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+
+        <!-- Services -->
+
+        <section class="services">
+            <h1>Services We Offer</h1>
+            <p>At SEFAR we offer not only door to door services but also one on one meet-ups in our offices both online and physically.</p>
+            <div class="row">
+                <div class="services-col">
+                    <h3>Door To Door</h3>
+                    <p>This involves reaching out to parents or guardians especially those in remote areas by visiting them and getting to know how to assist them.</p>
+                </div>
+                <div class="services-col">
+                    <h3>Online plattform</h3>
+                    <p>Any personel parent,guardian and so much more are welcome to chat or reach out to us via our website or social media plattforms.</p>
+                </div>
+                <div class="services-col">
+                    <h3>Our Office</h3>
+                    <p>All are invited to visit our office in order to find out more about the program.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regions -->
+
+        <section class="regions">
+            <h1>Target Regions</h1>
+            <p>Target regions include Nyanza,Central,Coastal,Western and North Eastern regions.</p>
+
+            <div class="row">
+                <div class="regions-col">
+                    <img src="nairobi.webp">
+                    <div class="layer">
+                        <h3>NAIROBI</h3>
+                    </div>
+                </div>
+                <div class="regions-col">
+                    <img src="mombasa.jpg">
+                    <div class="layer">
+                        <h3>MOMBASA</h3>
+                    </div>
+                </div>
+                <div class="regions-col">
+                    <img src="kisumu.jpg">
+                    <div class="layer">
+                        <h3>KISUMU</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities -->
+         <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>we have three main facilities incharge of our ongoing operations.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="programmes.webp">
+                    <h3>Programmes Department</h3>
+                    <p>This section deals entirely with activities piloting by the programmes officer.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="accounting.jpg">
+                    <h3>Finance</h3>
+                    <p>This section deals entirely with activities piloting by the finance officer.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="communication.jpg">
+                    <h3>Communication</h3>
+                    <p>This section deals entirely with activities piloting by the communication officer.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- Feedback -->
+         <section class="feedback">
+            <h1>Responses from different parents</h1>
+            <p>we have responses from different parents concerning our programme.</p>
+
+            <div class="row">
+                <div class="feedback-col">
+                    <img src="gonzalo.jpg">
+                    <div>
+                        <p>the programme is ammazing and has got services which i believe is suitable and cheap to the customer.</p>
+                        <h3>roberto madona</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="feedback-col">
+                    <img src="miya.jpg">
+                    <div>
+                        <p>the programme is ammazing and has got services which i believe is suitable and cheap to the customer.</p>
+                        <h3>miya gonzales</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Call To Action -->
+
+         <section class="cta">
+            <h1>Enroll for our various services online <br> or visit our headquarters.</h1>
+            <a href="" class="hi-btn">CONTACT US</a>
+         </section>
+
+         <!-- Footer -->
+
+         <section class="footer">
+            <h4>About US</h4>
+            <p>we care about the well being of all parents and their children who learn in different institutions and are struggling to make ends meet in order to educate their children.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by <i class="fa fa-heart-o"></i>Gift Arthur</p>
+         </section>
+        <!-- javascript for toggle Menu -->
+        <script type="text/javascript">
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
